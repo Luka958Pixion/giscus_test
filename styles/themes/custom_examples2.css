@@ -1,0 +1,125 @@
+main {
+  --color-prettylights-syntax-comment: yellow;
+  --color-prettylights-syntax-constant: #eac55f;
+  --color-prettylights-syntax-entity: #eac55f;
+  --color-prettylights-syntax-storage-modifier-import: #eac55f;
+  --color-prettylights-syntax-entity-tag: #8ddb8c;
+  --color-prettylights-syntax-keyword: #eac55f;
+  --color-prettylights-syntax-string: #eac55f;
+  --color-prettylights-syntax-variable: #f69d50;
+  --color-prettylights-syntax-brackethighlighter-unmatched: #eac55f;
+  --color-prettylights-syntax-invalid-illegal-text: #eac55f;
+  --color-prettylights-syntax-invalid-illegal-bg: #eac55f;
+  --color-prettylights-syntax-carriage-return-text: #cdd9e5;
+  --color-prettylights-syntax-carriage-return-bg: #eac55f;
+  --color-prettylights-syntax-string-regexp: #8ddb8c;
+  --color-prettylights-syntax-markup-list: #eac55f;
+  --color-prettylights-syntax-markup-heading: #eac55f;
+  --color-prettylights-syntax-markup-italic: #eac55f;
+  --color-prettylights-syntax-markup-bold: #eac55f;
+  --color-prettylights-syntax-markup-deleted-text: #eac55f;
+  --color-prettylights-syntax-markup-deleted-bg: #eac55f;
+  --color-prettylights-syntax-markup-inserted-text: #eac55f;
+  --color-prettylights-syntax-markup-inserted-bg: #eac55f;
+  --color-prettylights-syntax-markup-changed-text: #ffddb0;
+  --color-prettylights-syntax-markup-changed-bg: #eac55f;
+  --color-prettylights-syntax-markup-ignored-text: #eac55f;
+  --color-prettylights-syntax-markup-ignored-bg: #eac55f;
+  --color-prettylights-syntax-meta-diff-range: #dcbdfb;
+  --color-prettylights-syntax-brackethighlighter-angle: #eac55f;
+  --color-prettylights-syntax-sublimelinter-gutter-mark: #eac55f;
+  --color-prettylights-syntax-constant-other-reference-link: #eac55f;
+  --color-btn-text: yellow;
+  --color-btn-bg: yellow;
+  --color-btn-border: eac55f;
+  --color-btn-shadow: 0 0 transparent;
+  --color-btn-inset-shadow: 0 0 transparent;
+  --color-btn-hover-bg: yellow;
+  --color-btn-hover-border: yellow;
+  --color-btn-active-bg: yellow;
+  --color-btn-active-border: yellow;
+  --color-btn-selected-bg: yellow;
+  --color-btn-primary-text: #fff;
+  --color-btn-primary-bg: #eac55f;
+  --color-btn-primary-border: yellow;
+  --color-btn-primary-shadow: 0 0 transparent;
+  --color-btn-primary-inset-shadow: 0 0 transparent;
+  --color-btn-primary-hover-bg: #eac55f;
+  --color-btn-primary-hover-border: rgb(205 217 229 / 10%);
+  --color-btn-primary-selected-bg: #eac55f;
+  --color-btn-primary-selected-shadow: 0 0 transparent;
+  --color-btn-primary-disabled-text: #eac55f;
+  --color-btn-primary-disabled-bg: #eac55f;
+  --color-btn-primary-disabled-border: #eac55f;
+  --color-action-list-item-default-hover-bg: #eac55f;
+  --color-segmented-control-bg: #eac55f;
+  --color-segmented-control-button-bg: #eac55f;
+  --color-segmented-control-button-selected-border: #eac55f;
+  --color-fg-default: yellow;
+  --color-fg-muted: #eac55f;
+  --color-fg-subtle: #eac55f;
+  --color-canvas-default: #eac55f;
+  --color-canvas-overlay: #eac55f;
+  --color-canvas-inset: #eac55f;
+  --color-canvas-subtle: #eac55f;
+  --color-border-default: #eac55f;
+  --color-border-muted: #eac55f;
+  --color-neutral-muted: #eac55f;
+  --color-accent-fg: #539bf5;
+  --color-accent-emphasis: #316dca;
+  --color-accent-muted: #eac55f;
+  --color-accent-subtle: rgb(56 139 253 / 10%);
+  --color-success-fg: #57ab5a;
+  --color-attention-fg: #c69026;
+  --color-attention-muted: #eac55f;
+  --color-attention-subtle: #eac55f;
+  --color-danger-fg: #e5534b;
+  --color-danger-muted: #eac55f;
+  --color-danger-subtle: #eac55f;
+  --color-primer-shadow-inset: 0 0 transparent;
+  --color-scale-gray-7: yellow;
+  --color-scale-blue-8: #143d79;
+
+  /*! Extensions from @primer/css/alerts/flash.scss */
+  --color-social-reaction-bg-hover: var(--color-scale-gray-7);
+  --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-8);
+}
+
+main .pagination-loader-container {
+  background-image: url("https://github.com/images/modules/pulls/progressive-disclosure-line-dark.svg");
+}
+
+/*! Custom CSS */
+
+.gsc-reactions-count {
+  display: none;
+}
+
+.gsc-timeline {
+  flex-direction: column-reverse;
+}
+
+.gsc-header {
+  padding-bottom: 1rem;
+}
+
+.gsc-comments > .gsc-header {
+  order: 1;
+}
+
+.gsc-comments > .gsc-comment-box {
+  order: 2;
+  margin-bottom: 1rem;
+}
+
+.gsc-comments > .gsc-timeline {
+  order: 3;
+}
+
+.gsc-homepage-bg {
+  background-color: yellow;
+}
+
+main .gsc-loading-image {
+  background-image: url("https://github.githubassets.com/images/mona-loading-dimmed.gif");
+}
