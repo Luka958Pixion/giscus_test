@@ -1,5 +1,5 @@
 main {
-  --color-prettylights-syntax-comment: #768390;
+  --color-prettylights-syntax-comment: yellow;
   --color-prettylights-syntax-constant: #6cb6ff;
   --color-prettylights-syntax-entity: #dcbdfb;
   --color-prettylights-syntax-storage-modifier-import: #adbac7;
@@ -29,19 +29,19 @@ main {
   --color-prettylights-syntax-brackethighlighter-angle: #768390;
   --color-prettylights-syntax-sublimelinter-gutter-mark: #545d68;
   --color-prettylights-syntax-constant-other-reference-link: #96d0ff;
-  --color-btn-text: #adbac7;
-  --color-btn-bg: #373e47;
+  --color-btn-text: yellow;
+  --color-btn-bg: yellow;
   --color-btn-border: rgb(205 217 229 / 10%);
   --color-btn-shadow: 0 0 transparent;
   --color-btn-inset-shadow: 0 0 transparent;
-  --color-btn-hover-bg: #444c56;
-  --color-btn-hover-border: #768390;
-  --color-btn-active-bg: hsl(213deg 12% 27% / 100%);
-  --color-btn-active-border: #636e7b;
-  --color-btn-selected-bg: #2d333b;
+  --color-btn-hover-bg: yellow;
+  --color-btn-hover-border: yellow;
+  --color-btn-active-bg: yellow;
+  --color-btn-active-border: yellow;
+  --color-btn-selected-bg: yellow;
   --color-btn-primary-text: #fff;
   --color-btn-primary-bg: #347d39;
-  --color-btn-primary-border: rgb(205 217 229 / 10%);
+  --color-btn-primary-border: yellow;
   --color-btn-primary-shadow: 0 0 transparent;
   --color-btn-primary-inset-shadow: 0 0 transparent;
   --color-btn-primary-hover-bg: #46954a;
@@ -55,7 +55,7 @@ main {
   --color-segmented-control-bg: rgb(99 110 123 / 10%);
   --color-segmented-control-button-bg: #22272e;
   --color-segmented-control-button-selected-border: #636e7b;
-  --color-fg-default: #adbac7;
+  --color-fg-default: yellow;
   --color-fg-muted: #768390;
   --color-fg-subtle: #545d68;
   --color-canvas-default: rgb(25 39 52);
@@ -77,7 +77,7 @@ main {
   --color-danger-muted: rgb(229 83 75 / 40%);
   --color-danger-subtle: rgb(229 83 75 / 10%);
   --color-primer-shadow-inset: 0 0 transparent;
-  --color-scale-gray-7: #373e47;
+  --color-scale-gray-7: yellow;
   --color-scale-blue-8: #143d79;
 
   /*! Extensions from @primer/css/alerts/flash.scss */
